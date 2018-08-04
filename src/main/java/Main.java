@@ -20,6 +20,7 @@ public class Main {
         WebElement logIn = driver.findElement(By.id("rs-login-submit"));
         logIn.click();
 
-        driver.quit();
+
+        System.out.println("change");
     }
 }
